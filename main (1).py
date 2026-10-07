@@ -6,8 +6,8 @@ from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.stories import GetPeerStoriesRequest, GetPinnedStoriesRequest
 
-API_ID = int(os.getenv("API_ID", 36304618))
-API_HASH = os.getenv("API_HASH", "aba393ee19abc3e6afe1d7e6e233e9a9")
+API_ID = int(os.getenv("API_ID", 33041404))
+API_HASH = os.getenv("API_HASH", "1e08954bab875076c246b071aa19aad9")
 SESSION_STRING = os.getenv("SESSION_STRING")
 
 client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
